@@ -1,0 +1,121 @@
+{
+  "id": "838616",
+  "name": "Travel",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon",
+  "description": "Travel项目",
+  "glyphs": [
+    {
+      "icon_id": "10131750",
+      "name": "质量检测",
+      "font_class": "zhiliangjiance",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "3001049",
+      "name": "标记",
+      "font_class": "biaoji1",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "7478257",
+      "name": "人数",
+      "font_class": "renshu",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    },
+    {
+      "icon_id": "11753590",
+      "name": "人物",
+      "font_class": "V",
+      "unicode": "e6d9",
+      "unicode_decimal": 59097
+    },
+    {
+      "icon_id": "608346",
+      "name": "箭头",
+      "font_class": "jiantouarrow499",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "609205",
+      "name": "箭头",
+      "font_class": "jiantouarrow505",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
+      "icon_id": "7017748",
+      "name": "自动生成",
+      "font_class": "zidongshengcheng",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "3453541",
+      "name": "可视化图标0.7-11",
+      "font_class": "keshihuatubiao-",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "7444255",
+      "name": "批量",
+      "font_class": "piliang",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "1930254",
+      "name": "排序",
+      "font_class": "paixu",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "1817792",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "593498",
+      "name": "收缩",
+      "font_class": "weibiaoti26",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "4697050",
+      "name": "个性化推荐",
+      "font_class": "gexinghuatuijian",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "2400404",
+      "name": "book",
+      "font_class": "book",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "4494717",
+      "name": "A",
+      "font_class": "A",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "4731568",
+      "name": "keyboard",
+      "font_class": "keyboard",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    }
+  ]
+}
