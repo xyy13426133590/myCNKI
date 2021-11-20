@@ -1,0 +1,32 @@
+redux 的创建过程
+
+第一步：
+    先创建初始值state，基本的reducer(state,action)，然后使用createStore(reducer)创建唯一的数据源store，并将其导出去
+
+第二步：
+    如何将创建的store通过父组件传递给子组件呢？
+    将对应创建的redux store导入父组件，再导入react-redux自带的Provider，在父组件中这样使用：
+        <Provider store={store}>
+            //包裹的子组件
+        </Provider>
+    
+第三步：
+    在对应的子组件中可以使用使用store中的值，并从react-redux中导入connect函数(高阶组件),用来将组建与对应的store相关联
+            创建mapStateToProps，mapDispatchToProps 见名知意，直接将对应的state值，或者函数映射到对应的props上，如何使用?
+            state值： const  {...}  = this.props;
+            函数：  this.props.xxx()
+            
+            并将这两个函数导入connect中，用于管理组件与store数据
+            connect函数通过第一个参数让展示组件订阅了来自store的数据；通过第二个参数让展示组件默认可以dispatch各种action。
+            export default connect(mapStateToProps,mapDispatchToProps)(对应组件)
+
+第四步：
+    拆分reducer，拆分action，并在对应的reducer或者action中，导出变量，函数，
+    将对应的action导入对应的reducer
+
+第五步：
+    使用redux-thunk 处理副作用(如请求数据), 并必须使用redux自带的applyMiddleware(thunk)包裹起来使用，传入createStore作为第二个参数
+
+
+第六步：
+    在dataAction中创建一些数据请求的处理过程，如loading，error，success，并导入对应组件中使用
